@@ -1,0 +1,21 @@
+# No participant-level data may enter this repository.
+data/
+*.csv
+*.xpt
+*.XPT
+*.npz
+*.parquet
+*.pkl
+*.joblib
+
+outputs/
+*.png
+*.tif
+*.tiff
+*.pdf
+
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/

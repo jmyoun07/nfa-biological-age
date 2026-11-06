@@ -1,0 +1,17 @@
+# Verified on Python 3.9.6. The original model fitting and SHAP computation ran
+# on a separate machine under Python 3.11.
+numpy==2.0.2
+pandas==2.3.3
+scipy==1.13.1
+scikit-learn==1.6.1
+matplotlib==3.9.4
+seaborn==0.13.2
+statsmodels==0.14.6
+lightgbm==4.6.0
+
+# Required by 00_train_model.py and 02a/02b. Pinned exactly: gradient-boosting
+# predictions are build-sensitive.
+xgboost==2.1.4
+
+# Used only by 02a/02b (SHAP); ran on the separate model machine under Python 3.11.
+shap~=0.44
